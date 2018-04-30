@@ -1,0 +1,5 @@
+<launch>
+	<node name="pointcloud_saver_node" type="pointcloud_saver" pkg="pointcloud_util">
+		<remap from="points" to="velodyne_points" />
+	</node>
+</launch>
