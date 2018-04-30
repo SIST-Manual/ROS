@@ -17,17 +17,17 @@ Before you start working on this project, you should:
 # Project Description
 SLAM is an important part in Robotics. This project provides you an opportunity to use [BLAM (Berkeley Localization And Mapping)](https://github.com/erik-nelson/blam) for 3D mapping, as a beginner-level introduction to the Robotics.
 The algorithm takes 3D pointclouds as input, and build a sparse 3D PointCloud Map. 
-## Part 1: use BLAM to build 3D map
+### Part 1: use BLAM to build 3D map
 - refer to https://github.com/erik-nelson/blam for installation
 - Note that some file in the current framework is wrong (cause compile error), you might need to change those files.
 
-## Part 2: save the pointcloud
+### Part 2: save the pointcloud
 You need to write a simple tool to save the resulting pointcloud. An solution code is provided in the source code (pointcloud_util).
 
-## Part 3: view the pointcloud
+### Part 3: view the pointcloud
 Cloudcompare, the open-source tool is able to visualize the pointcloud, you might find it helpful.
 
-## Part 4: improve the pointcloud quality
+### Part 4: improve the pointcloud quality
 As you might have noticed, the pointcloud contains some outliners. You might be interested in removing those outliners. An option is to use PCL library for doing this. A simple out-liner removal program is provided in the source code.
 
 # FAQ
