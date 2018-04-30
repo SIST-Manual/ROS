@@ -22,7 +22,7 @@ The algorithm takes 3D pointclouds as input, and build a sparse 3D PointCloud Ma
 - Note that some file in the current framework is wrong (cause compile error), you might need to change those files.
 
 ## Part 2: save the pointcloud
-You need to write a simple tool to save the resulting pointcloud. An solution code is provided in the source code.
+You need to write a simple tool to save the resulting pointcloud. An solution code is provided in the source code (pointcloud_util).
 
 ## Part 3: view the pointcloud
 Cloudcompare, the open-source tool is able to visualize the pointcloud, you might find it helpful.
